@@ -18,7 +18,9 @@ const Services = () => {
             <img src={sport} alt="sport" />
             </div>
             <div className={classes.sportflex}>
-              <img className={classes.star} src={star} alt="star" />
+            <div className={classes.star} >
+              <img src={star} alt="star" />
+              </div>
               <div className={classes.text}>
                 <h6>5.0 (6).us</h6>
               </div>
@@ -33,7 +35,9 @@ const Services = () => {
         <img  src={wedding} alt="wedding" />
         </div>
         <div className={classes.sportflex}>
-              <img className={classes.star} src={star} alt="star" />
+        <div className={classes.star} >
+              <img src={star} alt="star" />
+              </div>
               <div className={classes.text}>
                 <h6>5.0 (6).us</h6>
               </div>
@@ -48,7 +52,9 @@ const Services = () => {
         <img src={sport} alt="mountain" />
           </div>
             <div className={classes.sportflex}>
-              <img className={classes.star} src={star} alt="star" />
+              <div className={classes.star} >
+              <img src={star} alt="star" />
+              </div>
               <div className={classes.text}>
                 <h6>5.0 (6).us</h6>
               </div>

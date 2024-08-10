@@ -14,7 +14,7 @@ const Hero = () => {
   return (
     <div className={classes.container}>
        <div className={classes.layouts}>
-        <div className="lay1">
+        <div className={classes.lay1}>
         <div className={classes.img1}>
             <img src={img1} alt="img1" />
         </div>

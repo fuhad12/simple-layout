@@ -151,10 +151,15 @@ h6{
         width: 90%;
     }
    
-    .star img{
-        width: 5%;
+    .star {
+        width: 10%;
     }
     .sportflex {
         width: 70%;
+    }
+}
+@media screen and (max-width: 320px){
+    .cards p{
+        font-size: 13px;
     }
 }

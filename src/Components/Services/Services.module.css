@@ -42,9 +42,15 @@ p{
 .sportflex{
     display: flex;
     gap: 1rem;
-    /* align-items: center; */
-    /* justify-content: center; */
+    padding-left: 1rem;
     
+    
+}
+.sportcard P{
+    padding-left: 1rem;
+}
+h4{
+    padding-left: 1rem;
 }
 
 .weddingcard {
@@ -57,10 +63,16 @@ p{
 .mountaincard {
     width: 20%;
 }
+.weddingcard p{
+    padding-left: 1rem;
+}
  .mountaincard .mountainimg img{
     width: 100%;
  
     
+}
+.mountaincard p{
+    padding-left: 1rem;
 }
  button{
     margin-top: .7rem;
@@ -74,7 +86,9 @@ h6{
     font-size: 16px;
     text-align: left;
 }
-
+.star img{
+    margin-bottom: 1rem;
+}
 @media screen and (max-width: 1024px){
     .cards{
         gap: 1.5rem;

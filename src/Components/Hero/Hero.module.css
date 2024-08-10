@@ -1,0 +1,44 @@
+
+
+.container{
+    width: 100%;
+    margin-top: 5rem;
+}
+.layouts{
+    width: 90%;
+    margin: auto;
+    display: flex ;
+    gap: 2rem;
+    justify-content: center;
+}
+.lay1{
+    margin-top: 2rem;
+}
+.lay3{
+margin-top: 2rem;
+}
+.lay5{
+    margin-top: 2rem;
+}
+@media screen and (max-width: 1024px){
+
+}
+
+@media screen and (max-width: 768px) {
+    .layouts {
+        width: 85%;
+        gap: 1rem;
+    }
+}
+@media screen and (max-width: 426px) {
+    .layouts {
+        width: 89%;
+        gap: .6rem;
+    }
+    .img1,.img2,.img3, .img4, .img5, .img6, .img7,.img8 img{
+        width: 100%;
+        margin-bottom: 1rem;
+        background-size: cover;
+    }
+    
+}

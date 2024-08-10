@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    box-sizing: border-box;
+}
+header{
+    width: 100%;
+    background: whitesmoke;
+    height: 4rem;
+    margin-top: .5rem;
+
+}
+.container img{
+    width: 8%;
+    margin-left: 3rem;
+    object-fit: contain;
+    background-size: cover;
+
+
+}
+@media screen and (max-width:1024px) {
+    header{
+        align-items: center;
+    }
+    .container img{
+        align-items: center;
+        margin-top: 1rem;
+    }
+
+}
+@media screen and (max-width: 768px) {
+    .container img{
+        width: 12%;
+    }
+    
+}
+@media screen and (max-width:426px){
+    .container img{
+        width: 25%;
+    }
+}

@@ -8,21 +8,19 @@
     width: 90%;
     margin: auto;
     display: flex ;
-    gap: 2rem;
+    gap: 1.5rem;
     justify-content: center;
 }
-.lay1 .img1{
+.sec1, .sec3{
     margin-top: 2rem;
 }
-.lay3 {
-margin-top: 2rem;
-}
-.img2, .img4, .img6, .img8{
-    margin-bottom: 1rem;
+.img2,.img4,.img6,.img8{
+    bottom: 1rem;
 }
 .lay5{
     margin-top: 2rem;
 }
+
 @media screen and (max-width: 1024px){
 
 }

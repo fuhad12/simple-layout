@@ -22,12 +22,11 @@ const Services = () => {
               <img src={star} alt="star" />
               </div>
               <div className={classes.text}>
-                <h6>5.0 (6).us</h6>
+              <p>5.0 (6).USA</p>
               </div>
             </div>
             <p>Life lessons with Katie Zaferes</p>
-              <h4>From $136 / person
-              </h4>
+            <p><span>From $50</span> / person</p>
         </div>
         <div className={classes.weddingcard}>
         <button>ONLINE</button>
@@ -39,13 +38,12 @@ const Services = () => {
               <img src={star} alt="star" />
               </div>
               <div className={classes.text}>
-                <h6>5.0 (6).us</h6>
+               <p>5.0 (30).USA</p>
               </div>
             </div>
             <p>Learn wedding photography
             </p>
-              <h4>From $125 / person
-              </h4>
+            <p><span>From $50</span> / person</p>
         </div>
         <div className={classes.mountaincard}>
           <div className={classes.sportimg}>
@@ -56,12 +54,11 @@ const Services = () => {
               <img src={star} alt="star" />
               </div>
               <div className={classes.text}>
-                <h6>5.0 (6).us</h6>
+                <p>4.8 (2).USA</p>
               </div>
             </div>
             <p>Group Mountain Biking</p>
-              <h4>From $50 / person
-              </h4>
+            <p><span>From $50</span> / person</p>
         </div>
       </div>
     </div>
